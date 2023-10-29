@@ -1,0 +1,22 @@
+{
+  "shehds_spot": {
+    "name": "Shehds 60W Gobo Spot",
+    "minPan": 0,
+    "maxPan": 540,
+    "minTilt": 60,
+    "maxTilt": 300,
+    "hasFine": true,
+    "channelsStart": 0,
+    "channelsStartFine": 0
+  },
+  "shehds_wash": {
+    "name": "Shehds LED Wash 7x18W RGBWA+UV",
+    "minPan": 0,
+    "maxPan": 540,
+    "minTilt": 90,
+    "maxTilt": 270,
+    "hasFine": true,
+    "channelsStart": 0,
+    "channelsStartFine": 0
+  }
+}

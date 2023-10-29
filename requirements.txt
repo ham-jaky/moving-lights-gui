@@ -1,0 +1,2 @@
+xmltodict~=0.13.0
+stupidArtnet~=1.4.0

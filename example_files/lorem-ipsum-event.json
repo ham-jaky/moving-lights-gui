@@ -1,0 +1,12 @@
+{
+  "room": [600, 280],
+  "lights": [
+    {
+      "position": [200, 270, 230],
+      "panOrientation": 90,
+      "address": 1,
+      "fine": true,
+      "knownLight": "shehds_spot"
+    }
+  ]
+}

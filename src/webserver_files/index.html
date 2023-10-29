@@ -1,0 +1,36 @@
+<!--
+MIT License
+
+Copyright (c) 2023 Jakob Felix Rieckers
+-->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Moving Light Controller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #lightCanvas {
+            width: auto;
+            height: 500px;
+            background-color: #eee;
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Moving Light Controller</h1>
+    <div>
+        <label for="heightInput">Höhe der Moving Lights:</label>
+        <input value="2" type="number" id="heightInput" placeholder="Höhe" step="0.2"> Meter
+        <br>
+        <img id="lightCanvas" src="/room_view.png">
+        <button onclick="changeState()" id="stateButton"><h1>LIVE</h1></button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

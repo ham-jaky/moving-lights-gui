@@ -1,0 +1,19 @@
+Here is a template, remove the comments and replace all values
+comments with "//"
+all distances and dimensions in cm
+
+{
+  "room": [<x here>, <y here>],
+  "lights": [
+    {
+      "position": [<x here>, <y here>, <z here>],
+      "panOrientation": <int: the orientation (0 -> negative y direction)>,
+      "address": <int: the address of the moving light>,
+      "fine": <boolean: if you want to use the fine channels>,
+      "knownLight": "<name of the light in the known_lights.json>"
+    },
+    {
+      <and again>
+    }
+  ]
+}
